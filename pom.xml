@@ -73,6 +73,64 @@
 				</plugins>
 			</build>
 		</profile>
+	
+	<profile>
+			<id>Lead</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M7</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testng_Lead.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	
+	
+	
+		<profile>
+			<id>Org</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M7</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testng_Org.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	
+	
+	
+		<profile>
+			<id>Con</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M7</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testng_Con.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
 	</profiles>
 
 </project>
