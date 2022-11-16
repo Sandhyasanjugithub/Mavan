@@ -5,6 +5,7 @@
     <classes>
       <class name="mavenPractice.CreateContactTest"/>
       <class name="mavenPractice.CreateOrgTest"/>
+      <class name="mavenPractice.CreateLeadTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
