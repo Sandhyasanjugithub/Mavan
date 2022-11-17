@@ -8,7 +8,7 @@ public class CreateLeadTest {
 	public void createLead()
 	{
 		System.out.println("lead created successfully");
-
+System.out.println("hi");
 	}
 
 }

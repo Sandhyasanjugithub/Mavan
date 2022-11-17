@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-15T14:45:51 IST" name="Default suite" finished-at="2022-11-15T14:45:51 IST" duration-ms="46">
+  <suite started-at="2022-11-16T15:35:48 IST" name="Default suite" finished-at="2022-11-16T15:35:48 IST" duration-ms="55">
     <groups>
     </groups>
-    <test started-at="2022-11-15T14:45:51 IST" name="Default test" finished-at="2022-11-15T14:45:51 IST" duration-ms="46">
-      <class name="mavenPractice.CreateOrgTest">
-        <test-method signature="createOrg()[pri:0, instance:mavenPractice.CreateOrgTest@693fe6c9]" started-at="2022-11-15T14:45:51 IST" name="createOrg" finished-at="2022-11-15T14:45:51 IST" duration-ms="10" status="PASS">
+    <test started-at="2022-11-16T15:35:48 IST" name="Default test" finished-at="2022-11-16T15:35:48 IST" duration-ms="55">
+      <class name="mavenPractice.CreateLeadTest">
+        <test-method signature="createLead()[pri:0, instance:mavenPractice.CreateLeadTest@693fe6c9]" started-at="2022-11-16T15:35:48 IST" name="createLead" finished-at="2022-11-16T15:35:48 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrg -->
-      </class> <!-- mavenPractice.CreateOrgTest -->
+        </test-method> <!-- createLead -->
+      </class> <!-- mavenPractice.CreateLeadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
